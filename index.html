@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--Bootstrap CSS-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!--Fontawesome-->
+     <script src="https://kit.fontawesome.com/96afee7b5e.js" crossorigin="anonymous"></script>
+     <!--JS-->
+     <script src="./assets/js/button.js"></script>
+     <!--CSS-->
+     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Weekly Task 1</title>
+</head>
+<body>
+    <!--navigation-->
+    <nav>
+        <div class="nav nav-tabs nav-fill fixed-top" role="tablist" id="myTab">
+            <a class="nav-item nav-link active" id="nav-tabs-git" role="tab" aria-controls="nav-git" aria-selected="true" data-bs-toggle="tab" href="#nav-git"><i class="fa-brands fa-git-square"></i> Git</a>
+
+            <a class="nav-item nav-link" id="nav-tabs-uiux" role="tab" aria-controls="nav-uiux" aria-selected="false" data-bs-toggle="tab" href="#nav-uiux"><i class="fa-solid fa-chalkboard-user"></i> Ui/Ux</a>
+
+            <a class="nav-link" id="nav-tabs-figma" role="tab" aria-controls="nav-figma" aria-selected="false" data-bs-toggle="tab" href="#nav-figma"><i class="fa-brands fa-figma"></i> Figma</a>
+
+            <a class="nav-item nav-link" id="nav-tabs-html" role="tab" aria-controls="nav-html" aria-selected="false" data-bs-toggle="tab" href="#nav-html"><i class="fa-brands fa-html5"></i> HTML</a>
+
+            <a class="nav-item nav-link" id="nav-tabs-css" role="tab" aria-controls="nav-css" aria-selected="false" data-bs-toggle="tab" href="#nav-css"><i class="fa-brands fa-css3-alt"></i> CSS</a>
+
+            <a class="nav-item nav-link" id="nav-tabs-bootstrap" role="tab" aria-controls="nav-bootstrap" aria-selected="false" data-bs-toggle="tab" href="#nav-bootstrap"><i class="fa-brands fa-bootstrap"></i> Bootstrap</a>
+
+            <a class="nav-item nav-link" id="nav-tabs-js" role="tab" aria-controls="nav-js" aria-selected="false" data-bs-toggle="tab" href="#nav-js"><i class="fa-brands fa-js-square"></i> JS Refreshment</a>
+
+            <a class="nav-item nav-link" id="nav-tabs-cleancode" role="tab" aria-controls="nav-cleancode" aria-selected="false" data-bs-toggle="tab" href="#nav-cleancode"><i class="fa-solid fa-file-code"></i> Clean Code</a>
+        </div>
+    </nav>
+    <!--End Navigation-->
+
+    <!--Content-->
+    <div class="tab-content content_container" id="nav-tabContent">
+
+        <!--Git Content-->
+        <div class="tab-pane fade show active" id="nav-git" role="tabpanel" aria-labelledby="nav-tabs-git">
+            <div class="container-fluid p-3 content">
+                <h1 class="title">Rangkuman Materi Git</h1>
+                <img src="./assets/image/logo/git.png" alt="img-title" class="img-title">
+                <section>
+                    <h3>1. Versioning Control System</h3>
+                    <p>Version Control System digunakan untuk mengelolah perubahan yang terjadi pada source code. Version control system mempermudah kita dalam berkolaborasi membangun sebuah aplikasi karena kita bisa mengetahui kapan perubahan itu terjadi dan siapa yang melakukan perubahan tersebut. Sehingga kita mudah melakukan tracking pada saat kerjasama team. Pada dasarnya terdapat banyak Version control system, seperti subversion, cvs, mercurial, dll.</p>
+                    <h3>2. Workflow Collaboration</h3>
+                    <p>Dalam mengembangkan sebuah software baik secara individu maupun kolaborasi dalam sebuah tim, ada baiknya kita perlu memahami alur kerja untuk berkolaborasi dalam github, sehingga pengembangan software menjadi lebih efisien.</p>
+                    <h3>Notes :</h3>
+                    <ul>
+                        <li>Jangan melakukan perubahan source code pada branch master, Hal ini karena branch master merupakan branch utama yang digunakan saat sesi production. Hal yang dapat dilakukan adalah dengan membuat branch development, branch development ini merupakan branch khusus yang digunakan saat proses pengembangan software.</li>
+                        <li>Hindari melakukan perubahan atau penambahan fitur langsung pada branch development. Hal yang sebaiknya dilakukan adalah dengan membuat branch baru untuk setiap fitur yang ingin ditambahkan. Pada saat fitur tersebut sudah fix, kemudian lakukan merge ke branch development.</li>
+                    </ul>
+
+                    <h4>Task :</h4>
+                    <p>Task di section ini adalah membuat sebuah repository baru di github, lalu membuat beberapa branch yaitu branch development, feature1 dan feature2. Setelah membuat sebuah projek di branch master maka selanjutnya membuat 3 branch lainnya. Lalu di branch feature1 ditambahkan sebuah fitur baru dan kemudian di merge dengan branch development. Kemudian langkah tersebut diulangi untuk branch feature2. Setelah selesai maka proses commit dan push tiap branch dapat di liat di menu insight -> network</p>
+                    <a href="https://github.com/Pr4y/rizkyestu-alta.git" target="_blank" >
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Link Github To My Task</button>
+                    </a>
+                    <br>
+                    <h4>Screenshot of My Task</h4>
+                    <img src="./assets/image/task1/taskgit.jpg" alt="img-praktikum" class="img-praktikum">
+                </section>
+            </div>
+
+        </div>
+
+        <!--UI UX Content-->
+        <div class="tab-pane fade" id="nav-uiux" role="tabpanel" aria-labelledby="nav-tabs-uiux">
+            <div class="container-fluid p-3 content" >
+                <h1 class="title">Rangkuman Materi UI/UX</h1>
+                <img src="./assets/image/logo/uiux-icon.png" alt="img-title" class="img-title">
+                <section>
+                    <h3>#1. User Experience (UX)</h3>
+                    <p>Berkaitan tentang hal apa saja yang user rasakan ketika menggunakan produk yang kita buat. Terdapat 4 UX Design Thinking, yaitu </p>
+                    <ol>
+                        <li>Emphaty</li>
+                        <p>Fokus pertama yang harus dilakukan adalah untuk kebutuhan user, bagaimana cara kita memahami kebutuhan, keinginan dan hal yang tidak disukai oleh pengguna. Hal ini juga tergantung oleh user Persona. Jadi tiap-tiap user memiliki ekspektasi, kebutuhan dan keinginan yang berbeda.</p>
+                        <li>Define</li>
+                        <p>Pada stage ini kita mengumpulkan informasi pada stage Emphaty. Mengumpulkan segala informasi yang kita tahu tentang user, apa masalahnya dan potensi kita untuk menyelesaikan masalah tersebut</p>
+                        <li>Ideate</li>
+                        <p>Setelah mengetahui segala informasi tentang apa saja yang kita butuhkan, mulai dari memahami produk kita untuk siapa, apa kegunaannya dan kenapa produk kita bisa menyelesaikan masalah bagi user, langkah selanjutnya adalah mulai mengimplementasikan ide.</p>
+                        <li>Prototype</li>
+                        <p>Selanjutnya adalah dengan membuat prototype produk. Tujuannya adalah testing product sebelum ke tahap final realese. Kita bisa mendapatkan feedback dari user, stakeholder dan tim dari protoype ini. Main Pillar Prototype adalah Representation, Precision and Interactivity</p>
+                    </ol>
+
+                    <h3>#2 User Intefaces (UI)</h3>
+                    <p>Adalah interaksi visual user terhadap produk kita. Terdapat 4 pilar dalam UI Desiign, yaitu :</p>
+                    <ol>
+                        <li>Consistency</li>
+                        <p>Konsistensi artinya menggunakan pattern dan urutan yang sama pada semua situasi.</p>
+                        <li>Keep the interface simple</li>
+                        <p>Usahakan menghindari elemen-elemen yang tidak diperlukan agar desain tetap simpel dan memudahkan user. Serta menggunakan bahasa yang mudah dipahami oleh user.</p>
+                        <li>Good Typography</li>
+                        <p>Menggunakan typeface dengan pola yang sama serta memperhatikan jenis font, ukuran, dan tata letak yang tepat. Hal ini diharuskan untuk meningkatkan readibility user.</p>
+                        <li>Offer Informative feedback</li>
+                        <p>Memberikan feedback yang informatif, jelas dan relevan.</p>
+                    </ol>
+                    <p>Dengan menerapkan 4 pilar ini bisa dipastikan UI berkualitas bagus dan project akan maksimal.</p>
+                    
+                    <h3>#3. Prototype</h3>
+                    <p>Sebuah simulasi yang menggambarkan final-product kita. Berfungsi sebagai mengetes produk sebelum kita menghabiskan sumber daya dalam membuat sebuah project. Hal ini agar mendapat feedback dari user, stakeholder dan tim serta bisa menunjukkan interaksi antar developer.</p>
+                </section>
+                <section>
+                    <h4>Task :</h4>
+                    <p>Task di section ini adalah menganalisa beberapa desain website. Analisa yang dilakukan berupa mengidentifikasi bagian-bagian dari website, menentukan UI dan UX yang ada di desain website tersebut dan juga menentukan color palette dari salah satu desain website. Berikut adalah desain website yang saya pilih di praktikum ini:</p>
+                    <a href="https://docs.google.com/document/d/1yzKaBb8x05_wHoQyRSwcIgfLnXEiF3IlST_R0GuEH_s/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-primary btn-lg">Link To My Analize(Google Docs)</button>
+                    </a> <br/>
+                    <h4>Screenshots: </h4>
+                    <ol>
+                        <li>Image #1</li>
+                        <img src="./assets/image/task2/design 1.png" alt="img-praktikum" class="img-praktikum">
+                        <li>Image #2</li>
+                        <img src="./assets/image/task2/design2.png" alt="img-praktikum" class="img-praktikum" >
+                        <li>Image #3</li>
+                        <img src="./assets/image/task2/design 3.jpg" alt="img-praktikum" class="img-praktikum">
+                    </ol>
+                    
+                </section>
+            </div>
+
+        </div>
+
+        <!--Figma Content-->
+        <div class="tab-pane fade" id="nav-figma" role="tabpanel" aria-labelledby="nav-tabs-figma">
+            <div class="container-fluid p-3 content">
+                <h1 class="title">Rangkuman Materi Figma</h1>
+                <img src="./assets/image/logo/figma_logo.png" alt="img-title" class="img-title">
+                <section>
+                    <h3>#1. Figma</h3>
+                    <p>Figma adalah vector grapichs editor dan prototyping tools yang berbasis web dan mendukung untuk offline pada aplikasi desktop di Windows atau MacOS.</p>
+                    <h3>#2. Kelebihan Figma</h3>
+                    <ul>
+                        <li>Free</li>
+                        <li>Bisa dijalnkan di Windows dan MacOS</li>
+                        <li>Real-time collaboration dengan tim </li>
+                        <li>Bisa mengimpor file Sketch</li>
+                        <li>Integrated Developers hand-off/Specs for Mac and PC</li>
+                        <li>Fantastic Team library/Design Systems, a single source of truth</li>
+                        <li>Integrated high-quality prototyping</li>
+                    </ul>
+                    <h3>#3. Kekurangan Figma</h3>
+                    <p>Hanya bisa menggunakan Figma ketika online. Kita bisa menyimpan project secara lokal dan kembali mengedit saat online. Serta tidak bisa mengekspor Sketch</p>
+
+                    <h4>Task :</h4>
+                    <p>Task di section ini adalah membuat sebuah desain figma berdasarkan dengan desain yang dipilih di section 3. Desain web yang dipilih yaitu ini. Selain membuat desainnya, desain tersebut juga harus diprototype.</p>
+                    <a href="https://www.figma.com/file/TFdCftH6Lr6O9QezuS0MME/bank?node-id=6%3A129" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-primary btn-lg">Link To My Figma</button>
+                    </a>
+                </section>
+            </div>
+
+        </div>
+
+        <!--HTML Content-->
+        <div class="tab-pane fade" id="nav-html" role="tabpanel" aria-labelledby="nav-tabs-html">
+            <div class="container-fluid p-3 content">
+                <h1 class="title">Rangkuman Materi HTML</h1>
+                <img src="./assets/image/logo/logo-html.png" alt="img-title" class="img-title">
+                <section>
+                    <h3>1. HTML</h3>
+                    <p>
+                      Merupakan singkatan dari HyperText Markup Language, atau bisa juga disebut dengan bahasa markup, yang digunakan untuk membuat struktur dasar pada sebuah halaman website. File HTML dapat dijalankan melalui web browser seperti
+                      Google Chrome, Microsoft Edge, Safari, dll. Untuk membuat file HTML, perlu menggunakan sebuah code editor, seperti:
+                      <ul>
+                        <li>Notepad++</li>
+                        <li>Sublime Text</li>
+                        <li>Atom</li>
+                        <li>Visual Studio Code</li>
+                      </ul>
+                    </p>
+                  </section>
+                  <section>
+                    <h3>2. Struktur Dasar HTML</h3>
+                    <h4>DOCTYPE</h4>
+                    <p>
+                      DOCTYPE yang merupakan singkatan dari Document Type Declaration dan juga dikenal sebagai DTD adalah deklarasi dokumen yang digunakan untuk menginfokan tipe dokumen dan versi HTML yang digunakan kepada aplikasi web browser.
+                      Penulisan DOCTYPE harus berada pada awal dokumen.
+                    </p>
+                    <h4>Tag HTML</h4>
+                    <p>
+                      Tag html digunakan untuk menginformasikan pada aplikasi web browser bahwa tipe dokomen tersebut adalah HTML. Tag html juga menjadi wadah untuk semua elemen HTML. Jadi, semua elemen harus berada di dalam tag tersebut kecuali
+                      DOCTYPE karena DOCTYPE bukan termasuk elemen melainkan deklarasi dokumen.
+                    </p>
+                    <h4>Tag Head</h4>
+                    <p>Tag head merupakan tag yang berisi informasi tentang halaman yang tidak ditampilkan di halaman web browser. Misalnya: source css, js atau lainnya yang berasal dari luar, informasi meta, title, dan lainnya.</p>
+                    <h4>Tag Body</h4>
+                    <p>
+                      Tag body merupakan tag yang berisi elemen-elemen yang ditampilkan di halaman web. Misalnya teks yang berupa paragraph, heading, menampilkan gambar, membuat tabel, dan lainnya. Di dalam tag body inilah konten visual dari halaman
+                      web ditempatkan.
+                    </p>
+                  </section>
+                  <section>
+                    <h3>3. Tag-tag pada HTML</h3>
+                    <ul>
+                      <li>Tag Heading (h1-h6)</li>
+                      <li>Tag Paragraph (p)</li>
+                      <li>Tag Table (table)</li>
+                      <li>Tag Link (a)</li>
+                      <li>Tag Image (img)</li>
+                      <li>Tag Form (form)</li>
+                      <li>Tag List (ul li)</li>
+                      <li>Tag Styling (strong, em, br, u)</li>
+                    </ul>
+                  </section>
+                  <section>
+                      <h4>Task :</h4>
+                      <p>Task di section ini adalah membuat 3 buah dokumen HTML. Pada dokumen HTML pertama yaitu index.html berisi berbagai macam teks dengan heading yang bermacam-macam. Lalu ada ordered list dan juga unordered list. Terakhir ada sebuah hyperlink yang jika diklik akan menuju dokumen form.html. Di halaman ini berisi sebuah form dengan berbagai macam jenis inputan mulai dari teks, radio button, checkbox hingga combobox. Lalu ada tombol Sign Up yang jika diklik akan mengarahkan ke dokumen welcome.html. Di file ini hanya berisi teks selamat datang.</p>
+                      <ol>
+                          <li>Index</li>
+                          <img src="./assets/image/taskhtml/index.html.jpg" alt="img-praktikum" class="img-praktikum">
+                          <li>Form Sign Up</li>
+                          <img src="./assets/image/taskhtml/form.html.jpg" alt="img-praktikum" class="img-praktikum">
+                          <li>Welcome Page</li>
+                          <img src="./assets/image/taskhtml/welcome.html.jpg" alt="img-praktikum" class="img-praktikum">
+                      </ol>
+                  </section>
+            </div>
+
+        </div>
+
+        <!--CSS Content-->
+        <div class="tab-pane fade" id="nav-css" role="tabpanel" aria-labelledby="nav-tabs-css">
+            <div class="container-fluid p-3 content">
+                <h1 class="title">Rangkuman Materi CSS</h1>
+                <img src="./assets/image/logo/logo-css.png" alt="img-title" class="img-title">
+                <section>
+                    <h3>#1. Pengertian CSS</h3>
+                    <p>Merupakan singkatan dari Cascading Style Sheet yang berfungsi untuk memberi tampilan visual yang lebih baik pada halaman yang telah dibuat menggunakan HTML. CSS dapat mengatur styling pada tampilan website, dan juga dapat mengatur Layouting pada halaman web. Terdapat 3 cara menambahkan CSS, yaitu:</p>
+                    <ul>
+                        <li>Inline CSS</li>
+                        <li>Internal CSS</li>
+                        <li>External CSS</li>
+                    </ul>
+                    <h3>#2. CSS Selector</h3>
+                    <p>Salah satu rule set dari Css yang fungsinya tidak berbeda jauh dengan namanya (Selector) yakni memilih suatu elemen yang ingin anda beri gaya atau style css.</p>
+                    <h3>#3. CSS Grouping</h3>
+                    <p>CSS Grouping merupakan teknik pemberian styling kepada lebih dari 1 element pada html. Hal ini dilakukan apabila terdapat lebih dari 1 element yang berbeda namun membutuhkan styling yang sama.</p>
+                </section>
+                <section>
+                    <h4>Task :</h4>
+                    <p>Task di section ini adalah membuat sebuah file HTML dan CSS yang menyerupai dengan contohnya. Ada dua macam file yang harus dibuat. File pertama adalah 3 buah kotak dengan posisi dan properti tertentu. Lalu untuk file kedua berupa sebuah desain website sederhana dengan navbar dan footer sekaligus beberapa post di tengahnya sebagai konten.</p>
+                    <h4>Screenshot :</h4>
+                    <img src="./assets/image/taskcss/ss.jpg" alt="img-praktikum" class="img-praktikum">
+                </section>
+            </div>
+
+        </div>
+
+        <!--Bootstrap Content-->
+        <div class="tab-pane fade" id="nav-bootstrap" role="tabpanel" aria-labelledby="nav-tabs-bootstrap">
+            <div class="container-fluid p-3 content">
+                <h1 class="title">Rangkuman Materi Bootstrap</h1>
+                <img src="./assets/image/logo/logo-bootstrap.png" alt="img-title" class="img-title">
+                <section>
+                    <p>Bootstrap adalah salah satu framework frontend yang bisa digunakan untuk mempermudah membuat modern-website atau web apps.</p>
+                    <h3>Kenapa Harus Menggunakan Bootstrap ?</h3>
+                    <ol>
+                        <li>Bisa Menggunakannya Dengan gratis serta open sources.</li>
+                        <li>Mudah dipelajari karena dalam dokumentasinya sudah tertera lengkap apa yang akan kita butuhkan untuk mendesain tampilan web.</li>
+                        <li>Cepat dan mendukung Responsive.</li>
+                    </ol>
+                    <h3>Dokumentasi Bootstrap</h3>
+                    <p> Terdapat sangat banyak class yang disediakan oleh bootstrap untuk digunakan, dan semua dijelaskan secara detail pada dokumentasinya</p>
+                    <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank">
+                        <button type="button" class="btn btn-primary">Bootstrap Documentation</button>
+                    </a><br>
+                </section>
+                <section><br>
+                    <h4>Task :</h4>
+                    <p>Task di section ini adalah membuat sebuah website menggunakan Bootstrap berdasarkan desain yang sudah diberikan. Untuk membuat website tersebut memerlukan fitur-fitur dari kelas Bootstrap untuk memudahkan dalam membuat web tersebut menjadi responsif.</p>
+                    <a href="https://github.com/Pr4y/Task_Bootstrap_Alta.git" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-primary">Link Repo Github</button>
+                    </a>
+                </section>
+            </div>
+
+        </div>
+
+        <!--JS Refreshment Content-->
+        <div class="tab-pane fade" id="nav-js" role="tabpanel" aria-labelledby="nav-tabs-js">
+            <div class="container-fluid p-3 content">
+                <h1 class="title">Rangkuman Materi Javascript Refreshment</h1>
+                <img src="./assets/image/logo/logo-js.png" alt="img-title" class="img-title">
+                <section>
+                    <h3>#1. Javascript Values</h3>
+                    <h5>Perbedaan Var, Let, Const</h5>
+                    <ul>
+                        <li>Pada Var, dan let bisa deklarasi variabel tanpa nilai, sedangkan pada Const tidak bisa.</li>
+                        <li>Keyword Var bisa dilakukan Deklarasi ulang, sedangkan pada let dan const tidak bisa.</li>
+                        <li>Keyword var dan let bisa dilakukan re-assign value, sedangkan const tidak. </li>
+                    </ul>
+                    <h5>Tipe Data Javascript</h5>
+                    <p>Tipe data pada javascript terbagi menjadi 2 yaitu tipe data primitif dan tipe data objek.</p>
+                    <ul>
+                        <li>Tipe Data Primitif: string, number, boolean, undefined, null, symbol</li>
+                        <li>Tipe Data Object: Object, Array, Function, Date, Set, Map, Weak Set, Weak Map</li>
+                    </ul>
+
+                    <h3>#2. Control Flow JS</h3>
+                    <p>Control flow mengatur alur eksekusi pada statement, atau jalannya program sesuai keinginan kita. Contoh control flow yaitu pengulanan, dan pengkondisian.</p>
+                    <ul>
+                        <li>Pengulangan: For, While, Do While.</li>
+                        <li>Pengkondisian: IF...Else, Switch, Block, Try, Catch, Break, Continue, Throw.</li>
+                    </ul>
+
+                    <h3>#3. Funtion JS</h3>
+                    <p>Function digunakan untuk melakukan serangkaian komputasi / prosedur yang dapat digunakan berulang kali dan akan mengembalikan sebuah nilai. Terdapat 2 jenis function, yaitu function expression dan arrow function</p>
+                </section>
+                <section>
+                    <h4>Task :</h4>
+                    <p>Task pada section ini adalah diberikan sebuah kode dan beberapa soal mengenai kode tersebut. Kode tersebut lalu dianalisa untuk dapat menjawab beberapa soal-soal yang ada. Selain menganalisa, kita juga diminta untuk merubah atau menambahkan di kode tersebut agar output yang dikeluarkan sesuai dengan yang diminta pada soal.</p>
+                    <br>
+                    <h4>Screenshot :</h4>
+                    <ol>
+                        <li>Task 1</li>
+                        <img src="./assets/image/taskjs/Screenshot_1.jpg" alt="img-praktikum" class="img-praktikum">
+                        <li>Task 2</li>
+                        <img src="./assets/image/taskjs/3-6.jpg" alt="img-praktikum" class="img-praktikum">
+                    </ol>
+                </section>
+            </div>
+
+        </div>
+
+        <!--Clean Code Content-->
+        <div class="tab-pane fade" id="nav-cleancode" role="tabpanel" aria-labelledby="nav-tabs-cleancode">
+            <div class="container-fluid p-3 content">
+                <h1 class="title">Rangkuman Materi Clean Code</h1>
+                <img src="./assets/image/logo/logo-clean-code.png" alt="img-title" class="img-title">
+                <section>
+                    <h3>#1. Pengertian Clean Code</h3>
+                    <p>Adalah kode program yang memiliki format yang benar dan rapi, serta memiliki struktur kode yang tertata dengan baik. Kode program yang sudah menerapkan clean code akan lebih mudah dibaca dan dimengerti karena setiap potongan kodenya memiliki arti dan fungsi sesuai tugasnya masing-masing.</p>
+
+                    <h3>#2. Prinsip Clean Code</h3>
+                    <ul>
+                        <li>KISS (Keep It Simple Stupid)</li>
+                        <p>Yaitu hindari membuat fungsi yang dibuat untukmelakukan tugas A,Memodifikasi B,Mengecek fungsi C, dst Cukup membuat fungsi yang kecildengan satu tugas saja. Hindari juga menggunakan terlalubanyak argumen pada fungsi.</p>
+                        <li>DRY (Don't Repeat Yourself)</li>
+                        <p>Hindari duplikasi code. Hal ini sering terjadi karena melakukan copy-paste dan tidak teliti.</p>
+                        <li>Refactoring Code</li>
+                        <p>Merupakan proses restrukturisasi kode yang telah dibuat. Dengan cara mengubah struktur internal tanpa mengubah prilaku eksternal. Prinsip KISS dan DRY bisa dicapai dengan cara refactoring.</p>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Task :</h4>
+                    <p>Task di section ini adalah menganalisa sebuah kode yang diberikan. Kode yang diberikan merupakan kode yang belum mengikuti aturan Clean Code. Kita disuruh untuk menemukan dimana saja kekurangan yang ada di kode tersebut. Selain menganalisa, kita juga disuruh menulis ulang kode yang diberikan agar menjadi clean code.</p>
+                    <a href="https://github.com/Pr4y/Task_CleanCode_Alta.git" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-primary">Link Repo Task</button>
+                    </a>
+                </section>
+            </div>
+
+        </div>
+
+
+
+        <!--ds-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
